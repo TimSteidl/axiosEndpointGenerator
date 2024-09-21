@@ -1,20 +1,24 @@
 {
   "name": "endpointscanner",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A project to scan for both spring and react endpoints and generate the opposing call",
-  "main": "intex.js",
+  "main": "index.js",
   "scripts": {
     "run": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "generate",
     "spring",
     "endpoints"
   ],
+  "repository": "https://github.com/TimSteidl/axiosEndpointGenerator",
   "author": "TSteidl",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "prettier": "^3.3.3"
+  },
+  "bin": {
+    "endpointscanner": "./index.js"
   }
 }
