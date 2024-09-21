@@ -1,0 +1,20 @@
+{
+  "name": "endpointscanner",
+  "version": "1.0.0",
+  "description": "A project to scan for both spring and react endpoints and generate the opposing call",
+  "main": "intex.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generate",
+    "spring",
+    "endpoints"
+  ],
+  "author": "TSteidl",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
